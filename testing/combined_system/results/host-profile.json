@@ -1,0 +1,86 @@
+{
+  "results": [
+    {
+      "variant": "full",
+      "all_events": {
+        "n": 600,
+        "median_ms": 0.01678600165178068,
+        "p95_ms": 5.301612000039313
+      },
+      "scored_host_reports": {
+        "n": 203,
+        "median_ms": 5.132424994371831,
+        "p95_ms": 5.530690003070049
+      },
+      "controller_decisions": {
+        "n": 9,
+        "median_ms": 0.2441260003251955,
+        "p95_ms": 24.018989999603946
+      }
+    },
+    {
+      "variant": "network_only",
+      "all_events": {
+        "n": 600,
+        "median_ms": 0.017542999557917938,
+        "p95_ms": 5.357245994673576
+      },
+      "scored_host_reports": {
+        "n": 203,
+        "median_ms": 5.173682002350688,
+        "p95_ms": 5.661745999532286
+      },
+      "controller_decisions": {
+        "n": 9,
+        "median_ms": 0.23682299797656015,
+        "p95_ms": 0.4196049994789064
+      }
+    },
+    {
+      "variant": "cipher",
+      "all_events": {
+        "n": 600,
+        "median_ms": 0.014217002899385989,
+        "p95_ms": 1.2985299981664866
+      },
+      "scored_host_reports": {
+        "n": 131,
+        "median_ms": 1.268123000045307,
+        "p95_ms": 1.361458002065774
+      },
+      "controller_decisions": {
+        "n": 9,
+        "median_ms": 0.2171969972550869,
+        "p95_ms": 0.4243449948262423
+      }
+    },
+    {
+      "variant": "contrast",
+      "all_events": {
+        "n": 600,
+        "median_ms": 0.010595002095215023,
+        "p95_ms": 0.05598400457529351
+      },
+      "scored_host_reports": {
+        "n": 1,
+        "median_ms": 1.118273001338821,
+        "p95_ms": 1.118273001338821
+      },
+      "controller_decisions": {
+        "n": 9,
+        "median_ms": 0.16948699339991435,
+        "p95_ms": 0.3294060006737709
+      }
+    }
+  ],
+  "serialized_components_bytes": {
+    "predictor": 1173474,
+    "classifier": 227415,
+    "temporal_state": 7203,
+    "cipher_AE": 16881,
+    "contrast_AE": 4485
+  },
+  "artifact_bytes": 1432961,
+  "scope": "same600recorded benign source root events, single-thread Python host replay after simulation; timings are wall-time, not MCU inference or simulated-network outcomes; network-only retains shadow HMA computation",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39"
+}

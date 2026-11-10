@@ -1,0 +1,25 @@
+{
+  "name": "joint-mixed-no_work-s1151",
+  "seed": 1151,
+  "split": "final",
+  "variant": "no_work",
+  "case": "mixed",
+  "network_case": 2,
+  "host_case": 1,
+  "work": 250,
+  "authorized": 1000,
+  "rx": 1,
+  "target": 2,
+  "topology": "bypass",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 121.12791718399967,
+  "gateway_errors": [],
+  "raw_sha256": "ae0a3e9f6c1334397dbc146e32e5811f7e9dff5b71effa9bc6caec8c9822f8e2",
+  "scenario_sha256": "fa9a880ac0742268ea17315098194fffc1fe2b0ef6697c293a245cc1e8e867c8",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

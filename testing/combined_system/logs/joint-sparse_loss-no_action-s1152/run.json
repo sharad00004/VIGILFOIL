@@ -1,0 +1,25 @@
+{
+  "name": "joint-sparse_loss-no_action-s1152",
+  "seed": 1152,
+  "split": "final",
+  "variant": "no_action",
+  "case": "sparse_loss",
+  "network_case": 4,
+  "host_case": 3,
+  "work": 1000,
+  "authorized": 1000,
+  "rx": 0.85,
+  "target": 3,
+  "topology": "grid",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 116.5863386389974,
+  "gateway_errors": [],
+  "raw_sha256": "877118ded251c6fbc11eac22d37e43499f77b98e49beaf059df513e9125f2747",
+  "scenario_sha256": "0e9292be0707c0ce27d7803fc6e8bb61dbc0a3c994aa78f0b0807576f0c718ec",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

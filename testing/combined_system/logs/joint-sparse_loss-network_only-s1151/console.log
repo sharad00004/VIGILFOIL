@@ -1,0 +1,26 @@
+Picked up JAVA_TOOL_OPTIONS: -Duser.home="/home/sharad/CNS Project/testing/cache/java-home"
+INFO  [main] [Cooja.java:1147] - Loading /home/sharad/CNS Project/testing/stage16-combined-study/scenarios/joint-sparse_loss-network_only-s1151.csc random seed: null
+INFO  [main] [LogScriptEngine.java:231] - Script timeout in 900000 ms
+INFO  [sim] [LogScriptEngine.java:320] -  5% completed, 73.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 10% completed, 47.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 15% completed, 34.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 20% completed, 26.9 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 25% completed, 41.5 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 30% completed, 49.1 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 35% completed, 54.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 40% completed, 56.3 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 45% completed, 55.8 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 50% completed, 56.2 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 55% completed, 55.0 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 60% completed, 51.8 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 65% completed, 47.9 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 70% completed, 42.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 75% completed, 36.8 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 80% completed, 30.0 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 85% completed, 22.6 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 90% completed, 15.0 sec remaining
+INFO  [sim] [LogScriptEngine.java:320] - 95% completed,  7.4 sec remaining
+INFO  [sim] [LogScriptEngine.java:294] - Timeout event @ 900000000
+INFO  [sim] [Simulation.java:450] - Runtime: 140649 ms. Simulated time: 900000 ms. Speedup: 6.398907919715035
+INFO  [main] [Cooja.java:1173] - TEST OK
+

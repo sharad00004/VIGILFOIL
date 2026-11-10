@@ -1,0 +1,7 @@
+# Recorded host environment. Install PyTorch CPU wheels from the PyTorch CPU index.
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.9.1
+threadpoolctl==3.8.0
+matplotlib==3.6.3
+torch==2.15.0+cpu

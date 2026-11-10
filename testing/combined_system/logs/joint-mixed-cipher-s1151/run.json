@@ -1,0 +1,25 @@
+{
+  "name": "joint-mixed-cipher-s1151",
+  "seed": 1151,
+  "split": "final",
+  "variant": "cipher",
+  "case": "mixed",
+  "network_case": 2,
+  "host_case": 1,
+  "work": 250,
+  "authorized": 1000,
+  "rx": 1,
+  "target": 2,
+  "topology": "bypass",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 109.04330983700493,
+  "gateway_errors": [],
+  "raw_sha256": "1121aa0cacbd9c76f31bfa39ab28f0075d901ac39da138de26593f09616f13cf",
+  "scenario_sha256": "d8c93e9a0548564c1b3197682784db7a5667d53a5a38014db4b10062761f55a1",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

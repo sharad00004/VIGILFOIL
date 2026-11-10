@@ -1,0 +1,13 @@
+{
+  "integrated_live": true,
+  "accepted_final_runs": 42,
+  "source_calibration_runs": 4,
+  "combined_host_episode_hits": 4,
+  "combined_host_episodes": 4,
+  "combined_benign_alarms": 322,
+  "combined_benign_scored": 2074,
+  "combined_sparse_covered": 7,
+  "combined_sparse_bursts": 10,
+  "universal_superiority_established": false,
+  "novelty_priority_verified": false
+}

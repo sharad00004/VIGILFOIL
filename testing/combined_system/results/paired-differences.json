@@ -1,0 +1,326 @@
+[
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "network_only",
+    "pdr_delta_pp": 0.959232613908878,
+    "worst_source_delta_pp": 3.7634408602150615,
+    "defense_payload_saving": -0.026523062235216832,
+    "byte_delta": 3556
+  },
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "cipher",
+    "pdr_delta_pp": -0.659472422062346,
+    "worst_source_delta_pp": -1.2544802867383464,
+    "defense_payload_saving": -0.01937605546173682,
+    "byte_delta": 2616
+  },
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "contrast",
+    "pdr_delta_pp": 0.059952038369304184,
+    "worst_source_delta_pp": -0.5376344086021501,
+    "defense_payload_saving": -0.010365889469665879,
+    "byte_delta": 1412
+  },
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "no_work",
+    "pdr_delta_pp": -0.47961630695443347,
+    "worst_source_delta_pp": -1.3440860215053752,
+    "defense_payload_saving": -0.013073050083914906,
+    "byte_delta": 1776
+  },
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "no_action",
+    "pdr_delta_pp": -0.059952038369304184,
+    "worst_source_delta_pp": 0.26881720430107503,
+    "defense_payload_saving": -0.0023305269904156933,
+    "byte_delta": 320
+  },
+  {
+    "seed": 1151,
+    "case": "benign",
+    "comparator": "no_memory",
+    "pdr_delta_pp": 0.0,
+    "worst_source_delta_pp": -0.5376344086021501,
+    "defense_payload_saving": -0.01235766616647549,
+    "byte_delta": 1680
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "network_only",
+    "pdr_delta_pp": 1.262626262626254,
+    "worst_source_delta_pp": 9.090909090909093,
+    "defense_payload_saving": 0.008346374543557689,
+    "byte_delta": -1088
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "cipher",
+    "pdr_delta_pp": 1.262626262626254,
+    "worst_source_delta_pp": 9.090909090909093,
+    "defense_payload_saving": 0.008346374543557689,
+    "byte_delta": -1088
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "contrast",
+    "pdr_delta_pp": 1.262626262626254,
+    "worst_source_delta_pp": 9.090909090909093,
+    "defense_payload_saving": 0.008346374543557689,
+    "byte_delta": -1088
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "no_work",
+    "pdr_delta_pp": 0.9259259259259189,
+    "worst_source_delta_pp": 7.575757575757569,
+    "defense_payload_saving": 0.03366922823909335,
+    "byte_delta": -4504
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "no_action",
+    "pdr_delta_pp": -0.16835016835017313,
+    "worst_source_delta_pp": -2.2727272727272707,
+    "defense_payload_saving": 0.022562985814959302,
+    "byte_delta": -2984
+  },
+  {
+    "seed": 1151,
+    "case": "mixed",
+    "comparator": "no_memory",
+    "pdr_delta_pp": 1.262626262626254,
+    "worst_source_delta_pp": 9.090909090909093,
+    "defense_payload_saving": 0.008346374543557689,
+    "byte_delta": -1088
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "network_only",
+    "pdr_delta_pp": -0.5995203836930418,
+    "worst_source_delta_pp": 0.9856630824372825,
+    "defense_payload_saving": -0.017529363158826694,
+    "byte_delta": 2376
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "cipher",
+    "pdr_delta_pp": 1.1390887290167906,
+    "worst_source_delta_pp": 2.9569892473118364,
+    "defense_payload_saving": -0.022720531529928145,
+    "byte_delta": 3064
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "contrast",
+    "pdr_delta_pp": 0.8992805755395739,
+    "worst_source_delta_pp": 2.6881720430107614,
+    "defense_payload_saving": -0.026251562593011535,
+    "byte_delta": 3528
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "no_work",
+    "pdr_delta_pp": 3.597122302158273,
+    "worst_source_delta_pp": 14.247311827956999,
+    "defense_payload_saving": 2.9001479075474457e-05,
+    "byte_delta": -4
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "no_action",
+    "pdr_delta_pp": 0.0,
+    "worst_source_delta_pp": 0.0,
+    "defense_payload_saving": 0.0,
+    "byte_delta": 0
+  },
+  {
+    "seed": 1151,
+    "case": "sparse_loss",
+    "comparator": "no_memory",
+    "pdr_delta_pp": -0.5995203836930418,
+    "worst_source_delta_pp": 0.9856630824372825,
+    "defense_payload_saving": -0.017529363158826694,
+    "byte_delta": 2376
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "network_only",
+    "pdr_delta_pp": -0.47961630695443347,
+    "worst_source_delta_pp": -1.388888888888884,
+    "defense_payload_saving": -0.0012379155859467694,
+    "byte_delta": 168
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "cipher",
+    "pdr_delta_pp": -0.47961630695443347,
+    "worst_source_delta_pp": -1.388888888888884,
+    "defense_payload_saving": -0.0012379155859467694,
+    "byte_delta": 168
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "contrast",
+    "pdr_delta_pp": -0.47961630695443347,
+    "worst_source_delta_pp": -1.388888888888884,
+    "defense_payload_saving": -0.0012379155859467694,
+    "byte_delta": 168
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "no_work",
+    "pdr_delta_pp": 0.17985611510791255,
+    "worst_source_delta_pp": -2.777777777777779,
+    "defense_payload_saving": 0.022474173405081843,
+    "byte_delta": -3124
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "no_action",
+    "pdr_delta_pp": -0.059952038369304184,
+    "worst_source_delta_pp": -4.1666666666666625,
+    "defense_payload_saving": 0.00944771680177292,
+    "byte_delta": -1296
+  },
+  {
+    "seed": 1152,
+    "case": "benign",
+    "comparator": "no_memory",
+    "pdr_delta_pp": -0.17985611510791255,
+    "worst_source_delta_pp": -2.777777777777779,
+    "defense_payload_saving": 0.004950350039544249,
+    "byte_delta": -676
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "network_only",
+    "pdr_delta_pp": 0.33670033670034627,
+    "worst_source_delta_pp": 0.7575757575757569,
+    "defense_payload_saving": -0.031142660865582705,
+    "byte_delta": 3808
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "cipher",
+    "pdr_delta_pp": 0.33670033670034627,
+    "worst_source_delta_pp": 0.7575757575757569,
+    "defense_payload_saving": -0.031142660865582705,
+    "byte_delta": 3808
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "contrast",
+    "pdr_delta_pp": 0.33670033670034627,
+    "worst_source_delta_pp": 0.7575757575757569,
+    "defense_payload_saving": -0.031142660865582705,
+    "byte_delta": 3808
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "no_work",
+    "pdr_delta_pp": 0.42087542087542174,
+    "worst_source_delta_pp": 0.0,
+    "defense_payload_saving": 0.01745581496836135,
+    "byte_delta": -2240
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "no_action",
+    "pdr_delta_pp": 0.0,
+    "worst_source_delta_pp": 0.0,
+    "defense_payload_saving": 0.0,
+    "byte_delta": 0
+  },
+  {
+    "seed": 1152,
+    "case": "mixed",
+    "comparator": "no_memory",
+    "pdr_delta_pp": 0.33670033670034627,
+    "worst_source_delta_pp": 0.7575757575757569,
+    "defense_payload_saving": -0.031142660865582705,
+    "byte_delta": 3808
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "network_only",
+    "pdr_delta_pp": 0.5395683453237377,
+    "worst_source_delta_pp": 0.40322580645161255,
+    "defense_payload_saving": -0.014946661516060944,
+    "byte_delta": 2012
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "cipher",
+    "pdr_delta_pp": 0.5395683453237377,
+    "worst_source_delta_pp": 0.40322580645161255,
+    "defense_payload_saving": -0.014946661516060944,
+    "byte_delta": 2012
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "contrast",
+    "pdr_delta_pp": 0.5395683453237377,
+    "worst_source_delta_pp": 0.40322580645161255,
+    "defense_payload_saving": -0.014946661516060944,
+    "byte_delta": 2012
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "no_work",
+    "pdr_delta_pp": -0.23980815347721673,
+    "worst_source_delta_pp": 5.555555555555558,
+    "defense_payload_saving": 0.013117596070499893,
+    "byte_delta": -1816
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "no_action",
+    "pdr_delta_pp": 0.0,
+    "worst_source_delta_pp": 1.388888888888895,
+    "defense_payload_saving": 0.007179606429671859,
+    "byte_delta": -988
+  },
+  {
+    "seed": 1152,
+    "case": "sparse_loss",
+    "comparator": "no_memory",
+    "pdr_delta_pp": -0.059952038369304184,
+    "worst_source_delta_pp": 0.0,
+    "defense_payload_saving": -0.0036141392178179466,
+    "byte_delta": 492
+  }
+]

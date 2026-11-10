@@ -1,0 +1,24 @@
+{
+  "name": "source-v5-s1111",
+  "seed": 1111,
+  "split": "train",
+  "variant": "network_only",
+  "network_case": 0,
+  "host_case": 0,
+  "authorized": 0,
+  "work": 0,
+  "target": 2,
+  "topology": "bypass",
+  "rx": 1,
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 79.35475477499858,
+  "gateway_errors": [],
+  "raw_sha256": "039a06204c537639495a8ec4f1e7529edb54153142aa09d8e73c194cf188d5b3",
+  "scenario_sha256": "1ee9963854ec753cf993815350dbce3d82a057a1190bea60e9b98153f825b862",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

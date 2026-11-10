@@ -1,0 +1,25 @@
+{
+  "name": "joint-sparse_loss-contrast-s1152",
+  "seed": 1152,
+  "split": "final",
+  "variant": "contrast",
+  "case": "sparse_loss",
+  "network_case": 4,
+  "host_case": 3,
+  "work": 1000,
+  "authorized": 1000,
+  "rx": 0.85,
+  "target": 3,
+  "topology": "grid",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 112.28829362700344,
+  "gateway_errors": [],
+  "raw_sha256": "4c4898bb51c3bca3edad66374c7d207cde755ad825e9a0cc607a175cec4ee7c1",
+  "scenario_sha256": "cba6a25a75e38652cd71a5ac7d9750e473cb49eec23011cf9eaabfb68e42a34b",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

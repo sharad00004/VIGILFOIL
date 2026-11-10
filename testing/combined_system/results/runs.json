@@ -1,0 +1,5402 @@
+[
+  {
+    "run": "joint-benign-full-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "full",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1633,
+    "pdr": 0.9790167865707434,
+    "worst_source_pdr": 0.9596774193548387,
+    "attack_phase_pdr": 0.9705882352941176,
+    "defense_bytes": 137628,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 12204,
+      "query_bytes": 3220,
+      "grant_bytes": 360,
+      "repair_source_bytes": 216,
+      "repair_helper_bytes": 168
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 216,
+      "authorization_bytes": 32,
+      "query_bytes": 3220,
+      "commands_sent": 121,
+      "query_reply_bytes": 12204,
+      "grant_bytes": 360,
+      "grant_receipts": 6,
+      "redirected_offers": 6,
+      "repair_helper_bytes": 168,
+      "helper_forwards": 6
+    },
+    "valid_reports": 185,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.47457627118644063,
+    "action_scope_reductions": 3,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1020,
+    "benign_alarm_observations": 161,
+    "nonrecovery_benign_observations": 1020,
+    "nonrecovery_benign_alarm_observations": 161,
+    "other_device_alarm_observations": 161,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 40,
+    "budget_decisions": 59,
+    "admitted_bytes": 16384,
+    "signed_frames_verified": 1818,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 357,
+        "pdr": 0.9596774193548387
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 161,
+    "host_fn": 0,
+    "host_tn": 859,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.15784313725490196
+  },
+  {
+    "run": "joint-benign-network_only-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "network_only",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1617,
+    "pdr": 0.9694244604316546,
+    "worst_source_pdr": 0.9220430107526881,
+    "attack_phase_pdr": 0.953921568627451,
+    "defense_bytes": 134072,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 8964,
+      "query_bytes": 2408,
+      "grant_bytes": 600,
+      "repair_source_bytes": 360,
+      "repair_helper_bytes": 280
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 360,
+      "authorization_bytes": 32,
+      "query_bytes": 2408,
+      "commands_sent": 96,
+      "query_reply_bytes": 8964,
+      "grant_bytes": 600,
+      "grant_receipts": 10,
+      "redirected_offers": 10,
+      "repair_helper_bytes": 280,
+      "helper_forwards": 10
+    },
+    "valid_reports": 150,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5310734463276836,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1023,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 1023,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 12936,
+    "signed_frames_verified": 1767,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 358,
+        "pdr": 0.9623655913978495
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 343,
+        "pdr": 0.9220430107526881
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 0,
+    "host_tn": 1023,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-benign-cipher-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "cipher",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1644,
+    "pdr": 0.9856115107913669,
+    "worst_source_pdr": 0.9722222222222222,
+    "attack_phase_pdr": 0.9813725490196078,
+    "defense_bytes": 135012,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 10368,
+      "query_bytes": 2716,
+      "grant_bytes": 240,
+      "repair_source_bytes": 144,
+      "repair_helper_bytes": 84
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 144,
+      "authorization_bytes": 32,
+      "query_bytes": 2716,
+      "commands_sent": 101,
+      "query_reply_bytes": 10368,
+      "grant_bytes": 240,
+      "grant_receipts": 4,
+      "redirected_offers": 4,
+      "repair_helper_bytes": 84,
+      "helper_forwards": 3
+    },
+    "valid_reports": 176,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4689265536723164,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 945,
+    "benign_alarm_observations": 58,
+    "nonrecovery_benign_observations": 945,
+    "nonrecovery_benign_alarm_observations": 58,
+    "other_device_alarm_observations": 58,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 29,
+    "budget_decisions": 59,
+    "admitted_bytes": 13688,
+    "signed_frames_verified": 1820,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 363,
+        "pdr": 0.9758064516129032
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 58,
+    "host_fn": 0,
+    "host_tn": 887,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.061375661375661375
+  },
+  {
+    "run": "joint-benign-contrast-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "contrast",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1632,
+    "pdr": 0.9784172661870504,
+    "worst_source_pdr": 0.9650537634408602,
+    "attack_phase_pdr": 0.9745098039215686,
+    "defense_bytes": 136216,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 10908,
+      "query_bytes": 2856,
+      "grant_bytes": 480,
+      "repair_source_bytes": 288,
+      "repair_helper_bytes": 224
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 288,
+      "authorization_bytes": 32,
+      "query_bytes": 2856,
+      "commands_sent": 110,
+      "query_reply_bytes": 10908,
+      "grant_bytes": 480,
+      "grant_receipts": 8,
+      "redirected_offers": 8,
+      "repair_helper_bytes": 224,
+      "helper_forwards": 8
+    },
+    "valid_reports": 173,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.487758945386064,
+    "action_scope_reductions": 2,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 789,
+    "benign_alarm_observations": 40,
+    "nonrecovery_benign_observations": 789,
+    "nonrecovery_benign_alarm_observations": 40,
+    "other_device_alarm_observations": 40,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 20,
+    "budget_decisions": 59,
+    "admitted_bytes": 14864,
+    "signed_frames_verified": 1805,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 359,
+        "pdr": 0.9650537634408602
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 363,
+        "pdr": 0.9758064516129032
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 40,
+    "host_fn": 0,
+    "host_tn": 749,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.050697084917617236
+  },
+  {
+    "run": "joint-benign-no_work-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "no_work",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1641,
+    "pdr": 0.9838129496402878,
+    "worst_source_pdr": 0.9731182795698925,
+    "attack_phase_pdr": 0.9745098039215686,
+    "defense_bytes": 135852,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 11340,
+      "query_bytes": 3052,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 3052,
+      "commands_sent": 109,
+      "query_reply_bytes": 11340
+    },
+    "valid_reports": 199,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.45386064030131823,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1032,
+    "benign_alarm_observations": 105,
+    "nonrecovery_benign_observations": 1032,
+    "nonrecovery_benign_alarm_observations": 105,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 52,
+    "budget_decisions": 59,
+    "admitted_bytes": 14824,
+    "signed_frames_verified": 1840,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 105,
+    "host_fn": 0,
+    "host_tn": 927,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.10174418604651163
+  },
+  {
+    "run": "joint-benign-no_action-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "no_action",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1634,
+    "pdr": 0.9796163069544365,
+    "worst_source_pdr": 0.956989247311828,
+    "attack_phase_pdr": 0.9705882352941176,
+    "defense_bytes": 137308,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 11556,
+      "query_bytes": 3052,
+      "grant_bytes": 600,
+      "repair_source_bytes": 360,
+      "repair_helper_bytes": 280
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 360,
+      "authorization_bytes": 32,
+      "query_bytes": 3052,
+      "commands_sent": 119,
+      "query_reply_bytes": 11556,
+      "grant_bytes": 600,
+      "grant_receipts": 10,
+      "redirected_offers": 10,
+      "repair_helper_bytes": 280,
+      "helper_forwards": 10
+    },
+    "valid_reports": 186,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4651600753295668,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1036,
+    "benign_alarm_observations": 156,
+    "nonrecovery_benign_observations": 1036,
+    "nonrecovery_benign_alarm_observations": 156,
+    "other_device_alarm_observations": 156,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 40,
+    "budget_decisions": 59,
+    "admitted_bytes": 16064,
+    "signed_frames_verified": 1820,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 356,
+        "pdr": 0.956989247311828
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 156,
+    "host_fn": 0,
+    "host_tn": 880,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.15057915057915058
+  },
+  {
+    "run": "joint-benign-no_memory-s1151",
+    "seed": 1151,
+    "case": "benign",
+    "variant": "no_memory",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1633,
+    "pdr": 0.9790167865707434,
+    "worst_source_pdr": 0.9650537634408602,
+    "attack_phase_pdr": 0.9705882352941176,
+    "defense_bytes": 135948,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 10476,
+      "query_bytes": 2772,
+      "grant_bytes": 600,
+      "repair_source_bytes": 360,
+      "repair_helper_bytes": 280
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 360,
+      "authorization_bytes": 32,
+      "query_bytes": 2772,
+      "commands_sent": 109,
+      "query_reply_bytes": 10476,
+      "grant_bytes": 600,
+      "grant_receipts": 10,
+      "redirected_offers": 10,
+      "repair_helper_bytes": 280,
+      "helper_forwards": 10
+    },
+    "valid_reports": 164,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.49529190207156304,
+    "action_scope_reductions": 4,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1014,
+    "benign_alarm_observations": 31,
+    "nonrecovery_benign_observations": 1014,
+    "nonrecovery_benign_alarm_observations": 31,
+    "other_device_alarm_observations": 22,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 15,
+    "budget_decisions": 59,
+    "admitted_bytes": 14704,
+    "signed_frames_verified": 1797,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 359,
+        "pdr": 0.9650537634408602
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 31,
+    "host_fn": 0,
+    "host_tn": 983,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.03057199211045365
+  },
+  {
+    "run": "joint-mixed-full-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "full",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1172,
+    "pdr": 0.9865319865319865,
+    "worst_source_pdr": 0.8939393939393939,
+    "attack_phase_pdr": 0.9777777777777777,
+    "defense_bytes": 129268,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 4428,
+      "query_bytes": 1148,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 1148,
+      "commands_sent": 59,
+      "query_reply_bytes": 4428,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32,
+      "malicious_drops": 12
+    },
+    "valid_reports": 164,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5103578154425612,
+    "action_scope_reductions": 6,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 41.08945,
+    "first_alarm_source_delay_seconds": 41,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 58,
+    "host_scored_attack_observations": 58,
+    "host_alarm_attack_observations": 50,
+    "benign_scored_observations": 991,
+    "benign_alarm_observations": 28,
+    "nonrecovery_benign_observations": 963,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 28,
+    "last_post_attack_alarm_seconds": 133,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 39,
+    "budget_decisions": 59,
+    "admitted_bytes": 7808,
+    "signed_frames_verified": 1336,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 118,
+        "pdr": 0.8939393939393939
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      }
+    ],
+    "host_tp": 50,
+    "host_fp": 28,
+    "host_fn": 8,
+    "host_tn": 963,
+    "host_precision": 0.6410256410256411,
+    "host_recall": 0.8620689655172413,
+    "host_f1": 0.7352941176470588,
+    "host_observation_fpr": 0.028254288597376387
+  },
+  {
+    "run": "joint-mixed-network_only-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "network_only",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1157,
+    "pdr": 0.9739057239057239,
+    "worst_source_pdr": 0.803030303030303,
+    "attack_phase_pdr": 0.9518518518518518,
+    "defense_bytes": 130356,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 5292,
+      "query_bytes": 1372,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 1372,
+      "commands_sent": 67,
+      "query_reply_bytes": 5292,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32,
+      "malicious_drops": 23
+    },
+    "valid_reports": 167,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.487758945386064,
+    "action_scope_reductions": 8,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 997,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 971,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 8896,
+    "signed_frames_verified": 1324,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 106,
+        "pdr": 0.803030303030303
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 997,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-cipher-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "cipher",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1157,
+    "pdr": 0.9739057239057239,
+    "worst_source_pdr": 0.803030303030303,
+    "attack_phase_pdr": 0.9518518518518518,
+    "defense_bytes": 130356,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 5292,
+      "query_bytes": 1372,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 1372,
+      "commands_sent": 67,
+      "query_reply_bytes": 5292,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32,
+      "malicious_drops": 23
+    },
+    "valid_reports": 167,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.487758945386064,
+    "action_scope_reductions": 8,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 925,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 899,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 8896,
+    "signed_frames_verified": 1324,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 106,
+        "pdr": 0.803030303030303
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 925,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-contrast-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "contrast",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1157,
+    "pdr": 0.9739057239057239,
+    "worst_source_pdr": 0.803030303030303,
+    "attack_phase_pdr": 0.9518518518518518,
+    "defense_bytes": 130356,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 5292,
+      "query_bytes": 1372,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 1372,
+      "commands_sent": 67,
+      "query_reply_bytes": 5292,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32,
+      "malicious_drops": 23
+    },
+    "valid_reports": 167,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.487758945386064,
+    "action_scope_reductions": 8,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 781,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 755,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 8896,
+    "signed_frames_verified": 1324,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 106,
+        "pdr": 0.803030303030303
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 781,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-no_work-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "no_work",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1161,
+    "pdr": 0.9772727272727273,
+    "worst_source_pdr": 0.8181818181818182,
+    "attack_phase_pdr": 0.9555555555555556,
+    "defense_bytes": 133772,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 7020,
+      "query_bytes": 1820,
+      "grant_bytes": 1680,
+      "repair_source_bytes": 1008,
+      "repair_helper_bytes": 784
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 1008,
+      "query_bytes": 1820,
+      "commands_sent": 93,
+      "query_reply_bytes": 7020,
+      "grant_bytes": 1680,
+      "grant_receipts": 28,
+      "redirected_offers": 28,
+      "repair_helper_bytes": 784,
+      "helper_forwards": 28,
+      "authorization_bytes": 32,
+      "malicious_drops": 21
+    },
+    "valid_reports": 185,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4896421845574388,
+    "action_scope_reductions": 12,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 0.09698300000002291,
+    "first_alarm_source_delay_seconds": 0,
+    "pre_attack_target_alarm_observations": 17,
+    "target_warned_within_15s_before_execution": true,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 60,
+    "benign_scored_observations": 1002,
+    "benign_alarm_observations": 45,
+    "nonrecovery_benign_observations": 974,
+    "nonrecovery_benign_alarm_observations": 17,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 28,
+    "last_post_attack_alarm_seconds": 133,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 52,
+    "budget_decisions": 59,
+    "admitted_bytes": 12312,
+    "signed_frames_verified": 1346,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 108,
+        "pdr": 0.8181818181818182
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      }
+    ],
+    "host_tp": 60,
+    "host_fp": 45,
+    "host_fn": 0,
+    "host_tn": 957,
+    "host_precision": 0.5714285714285714,
+    "host_recall": 1.0,
+    "host_f1": 0.7272727272727273,
+    "host_observation_fpr": 0.04491017964071856
+  },
+  {
+    "run": "joint-mixed-no_action-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "no_action",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1174,
+    "pdr": 0.9882154882154882,
+    "worst_source_pdr": 0.9166666666666666,
+    "attack_phase_pdr": 0.9796296296296296,
+    "defense_bytes": 132252,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 5616,
+      "query_bytes": 1456,
+      "grant_bytes": 1800,
+      "repair_source_bytes": 1080,
+      "repair_helper_bytes": 840
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 1080,
+      "query_bytes": 1456,
+      "commands_sent": 82,
+      "query_reply_bytes": 5616,
+      "grant_bytes": 1800,
+      "grant_receipts": 30,
+      "redirected_offers": 30,
+      "repair_helper_bytes": 840,
+      "helper_forwards": 30,
+      "authorization_bytes": 32,
+      "malicious_drops": 9
+    },
+    "valid_reports": 173,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4915254237288136,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 41.08945,
+    "first_alarm_source_delay_seconds": 41,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 58,
+    "host_scored_attack_observations": 58,
+    "host_alarm_attack_observations": 50,
+    "benign_scored_observations": 988,
+    "benign_alarm_observations": 47,
+    "nonrecovery_benign_observations": 960,
+    "nonrecovery_benign_alarm_observations": 19,
+    "other_device_alarm_observations": 19,
+    "post_attack_alarm_observations": 28,
+    "last_post_attack_alarm_seconds": 133,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 39,
+    "budget_decisions": 59,
+    "admitted_bytes": 10792,
+    "signed_frames_verified": 1347,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 121,
+        "pdr": 0.9166666666666666
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      }
+    ],
+    "host_tp": 50,
+    "host_fp": 47,
+    "host_fn": 8,
+    "host_tn": 941,
+    "host_precision": 0.5154639175257731,
+    "host_recall": 0.8620689655172413,
+    "host_f1": 0.6451612903225806,
+    "host_observation_fpr": 0.04757085020242915
+  },
+  {
+    "run": "joint-mixed-no_memory-s1151",
+    "seed": 1151,
+    "case": "mixed",
+    "variant": "no_memory",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1157,
+    "pdr": 0.9739057239057239,
+    "worst_source_pdr": 0.803030303030303,
+    "attack_phase_pdr": 0.9518518518518518,
+    "defense_bytes": 130356,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 5292,
+      "query_bytes": 1372,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 1372,
+      "commands_sent": 67,
+      "query_reply_bytes": 5292,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32,
+      "malicious_drops": 23
+    },
+    "valid_reports": 167,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.487758945386064,
+    "action_scope_reductions": 8,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 997,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 971,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 8896,
+    "signed_frames_verified": 1324,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 106,
+        "pdr": 0.803030303030303
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 997,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-full-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "full",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1629,
+    "pdr": 0.9766187050359713,
+    "worst_source_pdr": 0.9543010752688172,
+    "attack_phase_pdr": 0.9705882352941176,
+    "defense_bytes": 137920,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 12852,
+      "query_bytes": 3360,
+      "grant_bytes": 120,
+      "repair_source_bytes": 72,
+      "repair_helper_bytes": 56
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 72,
+      "authorization_bytes": 32,
+      "query_bytes": 3360,
+      "commands_sent": 122,
+      "query_reply_bytes": 12852,
+      "grant_bytes": 120,
+      "grant_receipts": 2,
+      "redirected_offers": 2,
+      "repair_helper_bytes": 56,
+      "helper_forwards": 2,
+      "malicious_drops": 3
+    },
+    "valid_reports": 172,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5028248587570621,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 36.18739599999998,
+    "first_alarm_source_delay_seconds": 56,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 57,
+    "host_scored_attack_observations": 57,
+    "host_alarm_attack_observations": 46,
+    "benign_scored_observations": 937,
+    "benign_alarm_observations": 94,
+    "nonrecovery_benign_observations": 912,
+    "nonrecovery_benign_alarm_observations": 69,
+    "other_device_alarm_observations": 69,
+    "post_attack_alarm_observations": 25,
+    "last_post_attack_alarm_seconds": 128,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 4,
+    "host_supported_decisions": 38,
+    "budget_decisions": 59,
+    "admitted_bytes": 16568,
+    "signed_frames_verified": 1801,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 355,
+        "pdr": 0.9543010752688172
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 46,
+    "host_fp": 94,
+    "host_fn": 11,
+    "host_tn": 843,
+    "host_precision": 0.32857142857142857,
+    "host_recall": 0.8070175438596491,
+    "host_f1": 0.467005076142132,
+    "host_observation_fpr": 0.10032017075773746
+  },
+  {
+    "run": "joint-sparse_loss-network_only-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "network_only",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1639,
+    "pdr": 0.9826139088729017,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9803921568627451,
+    "defense_bytes": 135544,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9936,
+      "query_bytes": 2660,
+      "grant_bytes": 720,
+      "repair_source_bytes": 432,
+      "repair_helper_bytes": 336
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 432,
+      "authorization_bytes": 32,
+      "query_bytes": 2660,
+      "commands_sent": 107,
+      "query_reply_bytes": 9936,
+      "grant_bytes": 720,
+      "grant_receipts": 12,
+      "redirected_offers": 12,
+      "repair_helper_bytes": 336,
+      "helper_forwards": 12,
+      "malicious_drops": 3
+    },
+    "valid_reports": 154,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5291902071563088,
+    "action_scope_reductions": 4,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 56,
+    "host_scored_attack_observations": 56,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 942,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 918,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 14408,
+    "signed_frames_verified": 1793,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 358,
+        "pdr": 0.9623655913978495
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 56,
+    "host_tn": 942,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-cipher-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "cipher",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1610,
+    "pdr": 0.9652278177458034,
+    "worst_source_pdr": 0.9247311827956989,
+    "attack_phase_pdr": 0.9529411764705882,
+    "defense_bytes": 134856,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9936,
+      "query_bytes": 2716,
+      "grant_bytes": 360,
+      "repair_source_bytes": 216,
+      "repair_helper_bytes": 168
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 216,
+      "authorization_bytes": 32,
+      "query_bytes": 2716,
+      "commands_sent": 103,
+      "query_reply_bytes": 9936,
+      "grant_bytes": 360,
+      "grant_receipts": 6,
+      "redirected_offers": 6,
+      "repair_helper_bytes": 168,
+      "helper_forwards": 6,
+      "malicious_drops": 3
+    },
+    "valid_reports": 158,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5329566854990584,
+    "action_scope_reductions": 2,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 55,
+    "host_scored_attack_observations": 55,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 869,
+    "benign_alarm_observations": 46,
+    "nonrecovery_benign_observations": 842,
+    "nonrecovery_benign_alarm_observations": 46,
+    "other_device_alarm_observations": 46,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 23,
+    "budget_decisions": 59,
+    "admitted_bytes": 13936,
+    "signed_frames_verified": 1768,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 360,
+        "pdr": 0.967741935483871
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 344,
+        "pdr": 0.9247311827956989
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 363,
+        "pdr": 0.9758064516129032
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 46,
+    "host_fn": 55,
+    "host_tn": 823,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.05293440736478711
+  },
+  {
+    "run": "joint-sparse_loss-contrast-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "contrast",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1614,
+    "pdr": 0.9676258992805755,
+    "worst_source_pdr": 0.9274193548387096,
+    "attack_phase_pdr": 0.9568627450980393,
+    "defense_bytes": 134392,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9720,
+      "query_bytes": 2716,
+      "grant_bytes": 240,
+      "repair_source_bytes": 144,
+      "repair_helper_bytes": 112
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 144,
+      "authorization_bytes": 32,
+      "query_bytes": 2716,
+      "commands_sent": 101,
+      "query_reply_bytes": 9720,
+      "grant_bytes": 240,
+      "grant_receipts": 4,
+      "redirected_offers": 4,
+      "repair_helper_bytes": 112,
+      "helper_forwards": 4,
+      "malicious_drops": 3
+    },
+    "valid_reports": 153,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.544256120527307,
+    "action_scope_reductions": 0,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 53,
+    "host_scored_attack_observations": 53,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 727,
+    "benign_alarm_observations": 45,
+    "nonrecovery_benign_observations": 703,
+    "nonrecovery_benign_alarm_observations": 45,
+    "other_device_alarm_observations": 45,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 24,
+    "budget_decisions": 59,
+    "admitted_bytes": 13688,
+    "signed_frames_verified": 1767,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 345,
+        "pdr": 0.9274193548387096
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 67,
+        "pdr": 0.9305555555555556
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 45,
+    "host_fn": 53,
+    "host_tn": 682,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.061898211829436035
+  },
+  {
+    "run": "joint-sparse_loss-no_work-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "no_work",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1569,
+    "pdr": 0.9406474820143885,
+    "worst_source_pdr": 0.8118279569892473,
+    "attack_phase_pdr": 0.9147058823529411,
+    "defense_bytes": 137924,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 12636,
+      "query_bytes": 3332,
+      "grant_bytes": 240,
+      "repair_source_bytes": 144,
+      "repair_helper_bytes": 112
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 144,
+      "authorization_bytes": 32,
+      "query_bytes": 3332,
+      "commands_sent": 123,
+      "query_reply_bytes": 12636,
+      "grant_bytes": 240,
+      "grant_receipts": 4,
+      "redirected_offers": 4,
+      "repair_helper_bytes": 112,
+      "helper_forwards": 4,
+      "malicious_drops": 63
+    },
+    "valid_reports": 168,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4990583804143126,
+    "action_scope_reductions": 2,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": -19.695596000000023,
+    "first_alarm_source_delay_seconds": 0,
+    "pre_attack_target_alarm_observations": 13,
+    "target_warned_within_15s_before_execution": true,
+    "host_attack_observations": 55,
+    "host_scored_attack_observations": 55,
+    "host_alarm_attack_observations": 55,
+    "benign_scored_observations": 945,
+    "benign_alarm_observations": 93,
+    "nonrecovery_benign_observations": 921,
+    "nonrecovery_benign_alarm_observations": 69,
+    "other_device_alarm_observations": 56,
+    "post_attack_alarm_observations": 24,
+    "last_post_attack_alarm_seconds": 133,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 5,
+    "host_supported_decisions": 51,
+    "budget_decisions": 59,
+    "admitted_bytes": 16680,
+    "signed_frames_verified": 1737,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 302,
+        "pdr": 0.8118279569892473
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 361,
+        "pdr": 0.9704301075268817
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 66,
+        "pdr": 0.9166666666666666
+      }
+    ],
+    "host_tp": 55,
+    "host_fp": 93,
+    "host_fn": 0,
+    "host_tn": 852,
+    "host_precision": 0.3716216216216216,
+    "host_recall": 1.0,
+    "host_f1": 0.541871921182266,
+    "host_observation_fpr": 0.09841269841269841
+  },
+  {
+    "run": "joint-sparse_loss-no_action-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "no_action",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1629,
+    "pdr": 0.9766187050359713,
+    "worst_source_pdr": 0.9543010752688172,
+    "attack_phase_pdr": 0.9705882352941176,
+    "defense_bytes": 137920,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 12852,
+      "query_bytes": 3360,
+      "grant_bytes": 120,
+      "repair_source_bytes": 72,
+      "repair_helper_bytes": 56
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 72,
+      "authorization_bytes": 32,
+      "query_bytes": 3360,
+      "commands_sent": 122,
+      "query_reply_bytes": 12852,
+      "grant_bytes": 120,
+      "grant_receipts": 2,
+      "redirected_offers": 2,
+      "repair_helper_bytes": 56,
+      "helper_forwards": 2,
+      "malicious_drops": 3
+    },
+    "valid_reports": 172,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5028248587570621,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 36.18739599999998,
+    "first_alarm_source_delay_seconds": 56,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 57,
+    "host_scored_attack_observations": 57,
+    "host_alarm_attack_observations": 46,
+    "benign_scored_observations": 937,
+    "benign_alarm_observations": 94,
+    "nonrecovery_benign_observations": 912,
+    "nonrecovery_benign_alarm_observations": 69,
+    "other_device_alarm_observations": 69,
+    "post_attack_alarm_observations": 25,
+    "last_post_attack_alarm_seconds": 128,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 4,
+    "host_supported_decisions": 38,
+    "budget_decisions": 59,
+    "admitted_bytes": 16568,
+    "signed_frames_verified": 1801,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 355,
+        "pdr": 0.9543010752688172
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 46,
+    "host_fp": 94,
+    "host_fn": 11,
+    "host_tn": 843,
+    "host_precision": 0.32857142857142857,
+    "host_recall": 0.8070175438596491,
+    "host_f1": 0.467005076142132,
+    "host_observation_fpr": 0.10032017075773746
+  },
+  {
+    "run": "joint-sparse_loss-no_memory-s1151",
+    "seed": 1151,
+    "case": "sparse_loss",
+    "variant": "no_memory",
+    "topology": "bypass",
+    "target": 2,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1639,
+    "pdr": 0.9826139088729017,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9803921568627451,
+    "defense_bytes": 135544,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9936,
+      "query_bytes": 2660,
+      "grant_bytes": 720,
+      "repair_source_bytes": 432,
+      "repair_helper_bytes": 336
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 432,
+      "authorization_bytes": 32,
+      "query_bytes": 2660,
+      "commands_sent": 107,
+      "query_reply_bytes": 9936,
+      "grant_bytes": 720,
+      "grant_receipts": 12,
+      "redirected_offers": 12,
+      "repair_helper_bytes": 336,
+      "helper_forwards": 12,
+      "malicious_drops": 3
+    },
+    "valid_reports": 154,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5291902071563088,
+    "action_scope_reductions": 4,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 56,
+    "host_scored_attack_observations": 56,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 942,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 918,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 14408,
+    "signed_frames_verified": 1793,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 358,
+        "pdr": 0.9623655913978495
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 56,
+    "host_tn": 942,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-benign-full-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "full",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1640,
+    "pdr": 0.9832134292565947,
+    "worst_source_pdr": 0.9305555555555556,
+    "attack_phase_pdr": 0.984313725490196,
+    "defense_bytes": 135880,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9612,
+      "query_bytes": 2576,
+      "grant_bytes": 1080,
+      "repair_source_bytes": 648,
+      "repair_helper_bytes": 504
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 648,
+      "query_bytes": 2576,
+      "commands_sent": 110,
+      "query_reply_bytes": 9612,
+      "grant_bytes": 1080,
+      "grant_receipts": 18,
+      "redirected_offers": 18,
+      "repair_helper_bytes": 504,
+      "helper_forwards": 18,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 181,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.44256120527306964,
+    "action_scope_reductions": 9,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1054,
+    "benign_alarm_observations": 161,
+    "nonrecovery_benign_observations": 1054,
+    "nonrecovery_benign_alarm_observations": 161,
+    "other_device_alarm_observations": 161,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 35,
+    "budget_decisions": 59,
+    "admitted_bytes": 14744,
+    "signed_frames_verified": 1821,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 67,
+        "pdr": 0.9305555555555556
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 161,
+    "host_fn": 0,
+    "host_tn": 893,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.1527514231499051
+  },
+  {
+    "run": "joint-benign-network_only-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "network_only",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1648,
+    "pdr": 0.988009592326139,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9911764705882353,
+    "defense_bytes": 135712,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9720,
+      "query_bytes": 2548,
+      "grant_bytes": 960,
+      "repair_source_bytes": 576,
+      "repair_helper_bytes": 448
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 576,
+      "query_bytes": 2548,
+      "commands_sent": 107,
+      "query_reply_bytes": 9720,
+      "grant_bytes": 960,
+      "grant_receipts": 16,
+      "redirected_offers": 16,
+      "repair_helper_bytes": 448,
+      "helper_forwards": 16,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 168,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4896421845574388,
+    "action_scope_reductions": 2,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1063,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 1063,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 14360,
+    "signed_frames_verified": 1816,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 371,
+        "pdr": 0.9973118279569892
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 0,
+    "host_tn": 1063,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-benign-cipher-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "cipher",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1648,
+    "pdr": 0.988009592326139,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9911764705882353,
+    "defense_bytes": 135712,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9720,
+      "query_bytes": 2548,
+      "grant_bytes": 960,
+      "repair_source_bytes": 576,
+      "repair_helper_bytes": 448
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 576,
+      "query_bytes": 2548,
+      "commands_sent": 107,
+      "query_reply_bytes": 9720,
+      "grant_bytes": 960,
+      "grant_receipts": 16,
+      "redirected_offers": 16,
+      "repair_helper_bytes": 448,
+      "helper_forwards": 16,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 168,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4896421845574388,
+    "action_scope_reductions": 2,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 991,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 991,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 14360,
+    "signed_frames_verified": 1816,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 371,
+        "pdr": 0.9973118279569892
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 0,
+    "host_tn": 991,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-benign-contrast-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "contrast",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1648,
+    "pdr": 0.988009592326139,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9911764705882353,
+    "defense_bytes": 135712,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9720,
+      "query_bytes": 2548,
+      "grant_bytes": 960,
+      "repair_source_bytes": 576,
+      "repair_helper_bytes": 448
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 576,
+      "query_bytes": 2548,
+      "commands_sent": 107,
+      "query_reply_bytes": 9720,
+      "grant_bytes": 960,
+      "grant_receipts": 16,
+      "redirected_offers": 16,
+      "repair_helper_bytes": 448,
+      "helper_forwards": 16,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 168,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4896421845574388,
+    "action_scope_reductions": 2,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 847,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 847,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 14360,
+    "signed_frames_verified": 1816,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 371,
+        "pdr": 0.9973118279569892
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 0,
+    "host_tn": 847,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-benign-no_work-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "no_work",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1637,
+    "pdr": 0.9814148681055156,
+    "worst_source_pdr": 0.9583333333333334,
+    "attack_phase_pdr": 0.9823529411764705,
+    "defense_bytes": 139004,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 12312,
+      "query_bytes": 3276,
+      "grant_bytes": 960,
+      "repair_source_bytes": 576,
+      "repair_helper_bytes": 420
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 576,
+      "query_bytes": 3276,
+      "commands_sent": 133,
+      "query_reply_bytes": 12312,
+      "grant_bytes": 960,
+      "grant_receipts": 16,
+      "redirected_offers": 16,
+      "repair_helper_bytes": 420,
+      "helper_forwards": 15,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 192,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4463276836158192,
+    "action_scope_reductions": 5,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1058,
+    "benign_alarm_observations": 275,
+    "nonrecovery_benign_observations": 1058,
+    "nonrecovery_benign_alarm_observations": 275,
+    "other_device_alarm_observations": 169,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 52,
+    "budget_decisions": 59,
+    "admitted_bytes": 17896,
+    "signed_frames_verified": 1829,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 360,
+        "pdr": 0.967741935483871
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 363,
+        "pdr": 0.9758064516129032
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 275,
+    "host_fn": 0,
+    "host_tn": 783,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.2599243856332703
+  },
+  {
+    "run": "joint-benign-no_action-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "no_action",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1641,
+    "pdr": 0.9838129496402878,
+    "worst_source_pdr": 0.9722222222222222,
+    "attack_phase_pdr": 0.9833333333333333,
+    "defense_bytes": 137176,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9504,
+      "query_bytes": 2492,
+      "grant_bytes": 1800,
+      "repair_source_bytes": 1080,
+      "repair_helper_bytes": 840
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 1080,
+      "query_bytes": 2492,
+      "commands_sent": 119,
+      "query_reply_bytes": 9504,
+      "grant_bytes": 1800,
+      "grant_receipts": 30,
+      "redirected_offers": 30,
+      "repair_helper_bytes": 840,
+      "helper_forwards": 30,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 182,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4595103578154426,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1047,
+    "benign_alarm_observations": 170,
+    "nonrecovery_benign_observations": 1047,
+    "nonrecovery_benign_alarm_observations": 170,
+    "other_device_alarm_observations": 170,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 42,
+    "budget_decisions": 59,
+    "admitted_bytes": 15824,
+    "signed_frames_verified": 1823,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 170,
+    "host_fn": 0,
+    "host_tn": 877,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.1623686723973257
+  },
+  {
+    "run": "joint-benign-no_memory-s1152",
+    "seed": 1152,
+    "case": "benign",
+    "variant": "no_memory",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.9,
+    "offered": 1668,
+    "delivered": 1643,
+    "pdr": 0.9850119904076738,
+    "worst_source_pdr": 0.9583333333333334,
+    "attack_phase_pdr": 0.984313725490196,
+    "defense_bytes": 136556,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 10368,
+      "query_bytes": 2744,
+      "grant_bytes": 960,
+      "repair_source_bytes": 576,
+      "repair_helper_bytes": 448
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 576,
+      "query_bytes": 2744,
+      "commands_sent": 114,
+      "query_reply_bytes": 10368,
+      "grant_bytes": 960,
+      "grant_receipts": 16,
+      "redirected_offers": 16,
+      "repair_helper_bytes": 448,
+      "helper_forwards": 16,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 183,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.448210922787194,
+    "action_scope_reductions": 1,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 0,
+    "host_scored_attack_observations": 0,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1054,
+    "benign_alarm_observations": 164,
+    "nonrecovery_benign_observations": 1054,
+    "nonrecovery_benign_alarm_observations": 164,
+    "other_device_alarm_observations": 145,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 0,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 35,
+    "budget_decisions": 59,
+    "admitted_bytes": 15312,
+    "signed_frames_verified": 1826,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 360,
+        "pdr": 0.967741935483871
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 368,
+        "pdr": 0.989247311827957
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 164,
+    "host_fn": 0,
+    "host_tn": 890,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.1555977229601518
+  },
+  {
+    "run": "joint-mixed-full-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "full",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1181,
+    "pdr": 0.9941077441077442,
+    "worst_source_pdr": 0.9545454545454546,
+    "attack_phase_pdr": 0.9962962962962963,
+    "defense_bytes": 126084,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 3672,
+      "query_bytes": 952,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 952,
+      "commands_sent": 34,
+      "query_reply_bytes": 3672
+    },
+    "valid_reports": 155,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.519774011299435,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 18.16771799999998,
+    "first_alarm_source_delay_seconds": 18,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 57,
+    "benign_scored_observations": 1020,
+    "benign_alarm_observations": 23,
+    "nonrecovery_benign_observations": 992,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 23,
+    "last_post_attack_alarm_seconds": 110,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 40,
+    "budget_decisions": 59,
+    "admitted_bytes": 4624,
+    "signed_frames_verified": 1336,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 126,
+        "pdr": 0.9545454545454546
+      }
+    ],
+    "host_tp": 57,
+    "host_fp": 23,
+    "host_fn": 3,
+    "host_tn": 997,
+    "host_precision": 0.7125,
+    "host_recall": 0.95,
+    "host_f1": 0.8142857142857143,
+    "host_observation_fpr": 0.022549019607843137
+  },
+  {
+    "run": "joint-mixed-network_only-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "network_only",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1177,
+    "pdr": 0.9907407407407407,
+    "worst_source_pdr": 0.946969696969697,
+    "attack_phase_pdr": 0.9925925925925926,
+    "defense_bytes": 122276,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 648,
+      "query_bytes": 168,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 168,
+      "commands_sent": 6,
+      "query_reply_bytes": 648
+    },
+    "valid_reports": 126,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5630885122410546,
+    "action_scope_reductions": 0,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1023,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 995,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 816,
+    "signed_frames_verified": 1303,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 125,
+        "pdr": 0.946969696969697
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 1023,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-cipher-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "cipher",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1177,
+    "pdr": 0.9907407407407407,
+    "worst_source_pdr": 0.946969696969697,
+    "attack_phase_pdr": 0.9925925925925926,
+    "defense_bytes": 122276,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 648,
+      "query_bytes": 168,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 168,
+      "commands_sent": 6,
+      "query_reply_bytes": 648
+    },
+    "valid_reports": 126,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5630885122410546,
+    "action_scope_reductions": 0,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 951,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 923,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 816,
+    "signed_frames_verified": 1303,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 125,
+        "pdr": 0.946969696969697
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 951,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-contrast-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "contrast",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1177,
+    "pdr": 0.9907407407407407,
+    "worst_source_pdr": 0.946969696969697,
+    "attack_phase_pdr": 0.9925925925925926,
+    "defense_bytes": 122276,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 648,
+      "query_bytes": 168,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 168,
+      "commands_sent": 6,
+      "query_reply_bytes": 648
+    },
+    "valid_reports": 126,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5630885122410546,
+    "action_scope_reductions": 0,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 807,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 779,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 816,
+    "signed_frames_verified": 1303,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 125,
+        "pdr": 0.946969696969697
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 807,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-mixed-no_work-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "no_work",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1176,
+    "pdr": 0.98989898989899,
+    "worst_source_pdr": 0.9545454545454546,
+    "attack_phase_pdr": 0.9925925925925926,
+    "defense_bytes": 128324,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 4860,
+      "query_bytes": 1260,
+      "grant_bytes": 360,
+      "repair_source_bytes": 216,
+      "repair_helper_bytes": 168
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 216,
+      "authorization_bytes": 32,
+      "query_bytes": 1260,
+      "commands_sent": 51,
+      "query_reply_bytes": 4860,
+      "grant_bytes": 360,
+      "grant_receipts": 6,
+      "redirected_offers": 6,
+      "repair_helper_bytes": 168,
+      "helper_forwards": 6
+    },
+    "valid_reports": 159,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5291902071563088,
+    "action_scope_reductions": 2,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 2.175265999999965,
+    "first_alarm_source_delay_seconds": 2,
+    "pre_attack_target_alarm_observations": 18,
+    "target_warned_within_15s_before_execution": true,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 60,
+    "benign_scored_observations": 1020,
+    "benign_alarm_observations": 46,
+    "nonrecovery_benign_observations": 992,
+    "nonrecovery_benign_alarm_observations": 18,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 28,
+    "last_post_attack_alarm_seconds": 138,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 52,
+    "budget_decisions": 59,
+    "admitted_bytes": 6864,
+    "signed_frames_verified": 1335,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 126,
+        "pdr": 0.9545454545454546
+      }
+    ],
+    "host_tp": 60,
+    "host_fp": 46,
+    "host_fn": 0,
+    "host_tn": 974,
+    "host_precision": 0.5660377358490566,
+    "host_recall": 1.0,
+    "host_f1": 0.7228915662650602,
+    "host_observation_fpr": 0.045098039215686274
+  },
+  {
+    "run": "joint-mixed-no_action-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "no_action",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1181,
+    "pdr": 0.9941077441077442,
+    "worst_source_pdr": 0.9545454545454546,
+    "attack_phase_pdr": 0.9962962962962963,
+    "defense_bytes": 126084,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 3672,
+      "query_bytes": 952,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 952,
+      "commands_sent": 34,
+      "query_reply_bytes": 3672
+    },
+    "valid_reports": 155,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.519774011299435,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 18.16771799999998,
+    "first_alarm_source_delay_seconds": 18,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 57,
+    "benign_scored_observations": 1020,
+    "benign_alarm_observations": 23,
+    "nonrecovery_benign_observations": 992,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 23,
+    "last_post_attack_alarm_seconds": 110,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 1,
+    "host_supported_decisions": 40,
+    "budget_decisions": 59,
+    "admitted_bytes": 4624,
+    "signed_frames_verified": 1336,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 126,
+        "pdr": 0.9545454545454546
+      }
+    ],
+    "host_tp": 57,
+    "host_fp": 23,
+    "host_fn": 3,
+    "host_tn": 997,
+    "host_precision": 0.7125,
+    "host_recall": 0.95,
+    "host_f1": 0.8142857142857143,
+    "host_observation_fpr": 0.022549019607843137
+  },
+  {
+    "run": "joint-mixed-no_memory-s1152",
+    "seed": 1152,
+    "case": "mixed",
+    "variant": "no_memory",
+    "topology": "grid",
+    "target": 3,
+    "rx": 1,
+    "offered": 1188,
+    "delivered": 1177,
+    "pdr": 0.9907407407407407,
+    "worst_source_pdr": 0.946969696969697,
+    "attack_phase_pdr": 0.9925925925925926,
+    "defense_bytes": 122276,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 648,
+      "query_bytes": 168,
+      "grant_bytes": 0,
+      "repair_source_bytes": 0,
+      "repair_helper_bytes": 0
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 0,
+      "authorization_bytes": 32,
+      "query_bytes": 168,
+      "commands_sent": 6,
+      "query_reply_bytes": 648
+    },
+    "valid_reports": 126,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.5630885122410546,
+    "action_scope_reductions": 0,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 1023,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 995,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 1,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 816,
+    "signed_frames_verified": 1303,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 6,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 7,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 8,
+        "offered": 132,
+        "delivered": 131,
+        "pdr": 0.9924242424242424
+      },
+      {
+        "node": 9,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 10,
+        "offered": 132,
+        "delivered": 125,
+        "pdr": 0.946969696969697
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 60,
+    "host_tn": 1023,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-full-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "full",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1639,
+    "pdr": 0.9826139088729017,
+    "worst_source_pdr": 0.9583333333333334,
+    "attack_phase_pdr": 0.9803921568627451,
+    "defense_bytes": 136624,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 11232,
+      "query_bytes": 2940,
+      "grant_bytes": 480,
+      "repair_source_bytes": 288,
+      "repair_helper_bytes": 224
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 288,
+      "query_bytes": 2940,
+      "commands_sent": 113,
+      "query_reply_bytes": 11232,
+      "grant_bytes": 480,
+      "grant_receipts": 8,
+      "redirected_offers": 8,
+      "repair_helper_bytes": 224,
+      "helper_forwards": 8,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 182,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.48210922787193977,
+    "action_scope_reductions": 3,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 129.140487,
+    "first_alarm_source_delay_seconds": 149,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 59,
+    "host_scored_attack_observations": 59,
+    "host_alarm_attack_observations": 30,
+    "benign_scored_observations": 1000,
+    "benign_alarm_observations": 197,
+    "nonrecovery_benign_observations": 972,
+    "nonrecovery_benign_alarm_observations": 174,
+    "other_device_alarm_observations": 174,
+    "post_attack_alarm_observations": 23,
+    "last_post_attack_alarm_seconds": 110,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 3,
+    "host_supported_decisions": 40,
+    "budget_decisions": 59,
+    "admitted_bytes": 15272,
+    "signed_frames_verified": 1821,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 128,
+        "pdr": 0.9696969696969697
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 363,
+        "pdr": 0.9758064516129032
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 368,
+        "pdr": 0.989247311827957
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 30,
+    "host_fp": 197,
+    "host_fn": 29,
+    "host_tn": 803,
+    "host_precision": 0.13215859030837004,
+    "host_recall": 0.5084745762711864,
+    "host_f1": 0.2097902097902098,
+    "host_observation_fpr": 0.197
+  },
+  {
+    "run": "joint-sparse_loss-network_only-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "network_only",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1630,
+    "pdr": 0.9772182254196643,
+    "worst_source_pdr": 0.9543010752688172,
+    "attack_phase_pdr": 0.9735294117647059,
+    "defense_bytes": 134612,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9612,
+      "query_bytes": 2548,
+      "grant_bytes": 480,
+      "repair_source_bytes": 288,
+      "repair_helper_bytes": 224
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 288,
+      "query_bytes": 2548,
+      "commands_sent": 99,
+      "query_reply_bytes": 9612,
+      "grant_bytes": 480,
+      "grant_receipts": 8,
+      "redirected_offers": 8,
+      "repair_helper_bytes": 224,
+      "helper_forwards": 8,
+      "authorization_bytes": 32,
+      "malicious_drops": 17
+    },
+    "valid_reports": 177,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4651600753295668,
+    "action_scope_reductions": 3,
+    "host_episode_detected": null,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 58,
+    "host_scored_attack_observations": 58,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 999,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 971,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 13368,
+    "signed_frames_verified": 1807,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 355,
+        "pdr": 0.9543010752688172
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 58,
+    "host_tn": 999,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-cipher-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "cipher",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1630,
+    "pdr": 0.9772182254196643,
+    "worst_source_pdr": 0.9543010752688172,
+    "attack_phase_pdr": 0.9735294117647059,
+    "defense_bytes": 134612,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9612,
+      "query_bytes": 2548,
+      "grant_bytes": 480,
+      "repair_source_bytes": 288,
+      "repair_helper_bytes": 224
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 288,
+      "query_bytes": 2548,
+      "commands_sent": 99,
+      "query_reply_bytes": 9612,
+      "grant_bytes": 480,
+      "grant_receipts": 8,
+      "redirected_offers": 8,
+      "repair_helper_bytes": 224,
+      "helper_forwards": 8,
+      "authorization_bytes": 32,
+      "malicious_drops": 17
+    },
+    "valid_reports": 177,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4651600753295668,
+    "action_scope_reductions": 3,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 58,
+    "host_scored_attack_observations": 58,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 927,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 899,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 13368,
+    "signed_frames_verified": 1807,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 355,
+        "pdr": 0.9543010752688172
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 58,
+    "host_tn": 927,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-contrast-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "contrast",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1630,
+    "pdr": 0.9772182254196643,
+    "worst_source_pdr": 0.9543010752688172,
+    "attack_phase_pdr": 0.9735294117647059,
+    "defense_bytes": 134612,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9612,
+      "query_bytes": 2548,
+      "grant_bytes": 480,
+      "repair_source_bytes": 288,
+      "repair_helper_bytes": 224
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 288,
+      "query_bytes": 2548,
+      "commands_sent": 99,
+      "query_reply_bytes": 9612,
+      "grant_bytes": 480,
+      "grant_receipts": 8,
+      "redirected_offers": 8,
+      "repair_helper_bytes": 224,
+      "helper_forwards": 8,
+      "authorization_bytes": 32,
+      "malicious_drops": 17
+    },
+    "valid_reports": 177,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.4651600753295668,
+    "action_scope_reductions": 3,
+    "host_episode_detected": false,
+    "first_alarm_delay_seconds": null,
+    "first_alarm_source_delay_seconds": null,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 58,
+    "host_scored_attack_observations": 58,
+    "host_alarm_attack_observations": 0,
+    "benign_scored_observations": 783,
+    "benign_alarm_observations": 0,
+    "nonrecovery_benign_observations": 755,
+    "nonrecovery_benign_alarm_observations": 0,
+    "other_device_alarm_observations": 0,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 0,
+    "host_supported_decisions": 0,
+    "budget_decisions": 59,
+    "admitted_bytes": 13368,
+    "signed_frames_verified": 1807,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 130,
+        "pdr": 0.9848484848484849
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 355,
+        "pdr": 0.9543010752688172
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      }
+    ],
+    "host_tp": 0,
+    "host_fp": 0,
+    "host_fn": 58,
+    "host_tn": 783,
+    "host_precision": 0.0,
+    "host_recall": 0.0,
+    "host_f1": 0.0,
+    "host_observation_fpr": 0.0
+  },
+  {
+    "run": "joint-sparse_loss-no_work-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "no_work",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1643,
+    "pdr": 0.9850119904076738,
+    "worst_source_pdr": 0.9027777777777778,
+    "attack_phase_pdr": 0.9872549019607844,
+    "defense_bytes": 138440,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 13176,
+      "query_bytes": 3556,
+      "grant_bytes": 120,
+      "repair_source_bytes": 72,
+      "repair_helper_bytes": 56
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 72,
+      "query_bytes": 3556,
+      "commands_sent": 129,
+      "query_reply_bytes": 13176,
+      "grant_bytes": 120,
+      "grant_receipts": 2,
+      "redirected_offers": 2,
+      "repair_helper_bytes": 56,
+      "helper_forwards": 2,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 191,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.45386064030131823,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": -17.851721999999995,
+    "first_alarm_source_delay_seconds": 2,
+    "pre_attack_target_alarm_observations": 18,
+    "target_warned_within_15s_before_execution": true,
+    "host_attack_observations": 60,
+    "host_scored_attack_observations": 60,
+    "host_alarm_attack_observations": 60,
+    "benign_scored_observations": 996,
+    "benign_alarm_observations": 233,
+    "nonrecovery_benign_observations": 968,
+    "nonrecovery_benign_alarm_observations": 205,
+    "other_device_alarm_observations": 187,
+    "post_attack_alarm_observations": 28,
+    "last_post_attack_alarm_seconds": 138,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 5,
+    "host_supported_decisions": 52,
+    "budget_decisions": 59,
+    "admitted_bytes": 17520,
+    "signed_frames_verified": 1834,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 364,
+        "pdr": 0.978494623655914
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 65,
+        "pdr": 0.9027777777777778
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 60,
+    "host_fp": 233,
+    "host_fn": 0,
+    "host_tn": 763,
+    "host_precision": 0.20477815699658702,
+    "host_recall": 1.0,
+    "host_f1": 0.33994334277620397,
+    "host_observation_fpr": 0.23393574297188754
+  },
+  {
+    "run": "joint-sparse_loss-no_action-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "no_action",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1639,
+    "pdr": 0.9826139088729017,
+    "worst_source_pdr": 0.9444444444444444,
+    "attack_phase_pdr": 0.9803921568627451,
+    "defense_bytes": 137612,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 9828,
+      "query_bytes": 2604,
+      "grant_bytes": 1800,
+      "repair_source_bytes": 1080,
+      "repair_helper_bytes": 840
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 1080,
+      "query_bytes": 2604,
+      "commands_sent": 123,
+      "query_reply_bytes": 9828,
+      "grant_bytes": 1800,
+      "grant_receipts": 30,
+      "redirected_offers": 30,
+      "repair_helper_bytes": 840,
+      "helper_forwards": 30,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 172,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.49340866290018837,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 129.140487,
+    "first_alarm_source_delay_seconds": 149,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 59,
+    "host_scored_attack_observations": 59,
+    "host_alarm_attack_observations": 30,
+    "benign_scored_observations": 995,
+    "benign_alarm_observations": 210,
+    "nonrecovery_benign_observations": 969,
+    "nonrecovery_benign_alarm_observations": 184,
+    "other_device_alarm_observations": 184,
+    "post_attack_alarm_observations": 26,
+    "last_post_attack_alarm_seconds": 138,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 3,
+    "host_supported_decisions": 42,
+    "budget_decisions": 59,
+    "admitted_bytes": 16368,
+    "signed_frames_verified": 1811,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 129,
+        "pdr": 0.9772727272727273
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 362,
+        "pdr": 0.9731182795698925
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 68,
+        "pdr": 0.9444444444444444
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 366,
+        "pdr": 0.9838709677419355
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 369,
+        "pdr": 0.9919354838709677
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 71,
+        "pdr": 0.9861111111111112
+      }
+    ],
+    "host_tp": 30,
+    "host_fp": 210,
+    "host_fn": 29,
+    "host_tn": 785,
+    "host_precision": 0.125,
+    "host_recall": 0.5084745762711864,
+    "host_f1": 0.20066889632107024,
+    "host_observation_fpr": 0.21105527638190955
+  },
+  {
+    "run": "joint-sparse_loss-no_memory-s1152",
+    "seed": 1152,
+    "case": "sparse_loss",
+    "variant": "no_memory",
+    "topology": "grid",
+    "target": 3,
+    "rx": 0.85,
+    "offered": 1668,
+    "delivered": 1640,
+    "pdr": 0.9832134292565947,
+    "worst_source_pdr": 0.9583333333333334,
+    "attack_phase_pdr": 0.9813725490196078,
+    "defense_bytes": 136132,
+    "bytes_by_channel": {
+      "host_bytes": 100044,
+      "authorization_bytes": 32,
+      "mandatory_report_bytes": 21384,
+      "query_reply_bytes": 11016,
+      "query_bytes": 2912,
+      "grant_bytes": 360,
+      "repair_source_bytes": 216,
+      "repair_helper_bytes": 168
+    },
+    "actual_counts": {
+      "host_bytes": 100044,
+      "mandatory_report_bytes": 21384,
+      "repair_source_bytes": 216,
+      "query_bytes": 2912,
+      "commands_sent": 110,
+      "query_reply_bytes": 11016,
+      "grant_bytes": 360,
+      "grant_receipts": 6,
+      "redirected_offers": 6,
+      "repair_helper_bytes": 168,
+      "helper_forwards": 6,
+      "authorization_bytes": 32
+    },
+    "valid_reports": 183,
+    "rejected_reports": 0,
+    "unknown_ledger_fraction": 0.45386064030131823,
+    "action_scope_reductions": 0,
+    "host_episode_detected": true,
+    "first_alarm_delay_seconds": 118.24209199999996,
+    "first_alarm_source_delay_seconds": 138,
+    "pre_attack_target_alarm_observations": 0,
+    "target_warned_within_15s_before_execution": false,
+    "host_attack_observations": 57,
+    "host_scored_attack_observations": 57,
+    "host_alarm_attack_observations": 30,
+    "benign_scored_observations": 987,
+    "benign_alarm_observations": 127,
+    "nonrecovery_benign_observations": 960,
+    "nonrecovery_benign_alarm_observations": 127,
+    "other_device_alarm_observations": 127,
+    "post_attack_alarm_observations": 0,
+    "last_post_attack_alarm_seconds": 0,
+    "executed_cpu_bursts": 5,
+    "bursts_with_alarm_within_15s": 3,
+    "host_supported_decisions": 35,
+    "budget_decisions": 59,
+    "admitted_bytes": 14888,
+    "signed_frames_verified": 1823,
+    "all_nine_sources_observed": true,
+    "per_source": [
+      {
+        "node": 2,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 3,
+        "offered": 132,
+        "delivered": 132,
+        "pdr": 1.0
+      },
+      {
+        "node": 4,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 5,
+        "offered": 372,
+        "delivered": 361,
+        "pdr": 0.9704301075268817
+      },
+      {
+        "node": 6,
+        "offered": 72,
+        "delivered": 69,
+        "pdr": 0.9583333333333334
+      },
+      {
+        "node": 7,
+        "offered": 372,
+        "delivered": 367,
+        "pdr": 0.9865591397849462
+      },
+      {
+        "node": 8,
+        "offered": 72,
+        "delivered": 72,
+        "pdr": 1.0
+      },
+      {
+        "node": 9,
+        "offered": 372,
+        "delivered": 365,
+        "pdr": 0.9811827956989247
+      },
+      {
+        "node": 10,
+        "offered": 72,
+        "delivered": 70,
+        "pdr": 0.9722222222222222
+      }
+    ],
+    "host_tp": 30,
+    "host_fp": 127,
+    "host_fn": 27,
+    "host_tn": 860,
+    "host_precision": 0.1910828025477707,
+    "host_recall": 0.5263157894736842,
+    "host_f1": 0.2803738317757009,
+    "host_observation_fpr": 0.1286727456940223
+  }
+]

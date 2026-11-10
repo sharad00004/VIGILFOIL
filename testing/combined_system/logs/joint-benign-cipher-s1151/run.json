@@ -1,0 +1,25 @@
+{
+  "name": "joint-benign-cipher-s1151",
+  "seed": 1151,
+  "split": "final",
+  "variant": "cipher",
+  "case": "benign",
+  "network_case": 1,
+  "host_case": 0,
+  "work": 0,
+  "authorized": 1000,
+  "rx": 0.9,
+  "target": 2,
+  "topology": "bypass",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 130.03316140300012,
+  "gateway_errors": [],
+  "raw_sha256": "f6734c5539b0aa9a1f1e27cb30b0f3a72b0ec81db5744a592695b3732eaf22c6",
+  "scenario_sha256": "e4d1698ad4deb8fb1555db3147f4f97b363b21b5d6f5683d59399a7220a51fdc",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "joint-mixed-contrast-s1152",
+  "seed": 1152,
+  "split": "final",
+  "variant": "contrast",
+  "case": "mixed",
+  "network_case": 2,
+  "host_case": 1,
+  "work": 250,
+  "authorized": 1000,
+  "rx": 1,
+  "target": 3,
+  "topology": "grid",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 97.69525484999758,
+  "gateway_errors": [],
+  "raw_sha256": "c34410d290beb59e506e07945ef1a3c0eef0bd2bc1f836ffadbc79703f2a95e5",
+  "scenario_sha256": "28105b465d624478817ca0114c6091c84e65ea5e5f36b7b46612969f848b5ceb",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

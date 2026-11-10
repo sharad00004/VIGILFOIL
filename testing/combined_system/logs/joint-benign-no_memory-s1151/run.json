@@ -1,0 +1,25 @@
+{
+  "name": "joint-benign-no_memory-s1151",
+  "seed": 1151,
+  "split": "final",
+  "variant": "no_memory",
+  "case": "benign",
+  "network_case": 1,
+  "host_case": 0,
+  "work": 0,
+  "authorized": 1000,
+  "rx": 0.9,
+  "target": 2,
+  "topology": "bypass",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 144.90920374000416,
+  "gateway_errors": [],
+  "raw_sha256": "3711fab59ca4178bd0dae00042dc6dc034270e6ae51a3b3f0987b345c102e4f8",
+  "scenario_sha256": "bb58bf76582371a5b8260229b92860cf2d2f847b08328fd9b78c0ed260ae3aa4",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

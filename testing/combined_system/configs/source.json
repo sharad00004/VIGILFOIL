@@ -1,0 +1,58 @@
+[
+  {
+    "name": "source-v5-s1111",
+    "seed": 1111,
+    "split": "train",
+    "variant": "network_only",
+    "network_case": 0,
+    "host_case": 0,
+    "authorized": 0,
+    "work": 0,
+    "target": 2,
+    "topology": "bypass",
+    "rx": 1,
+    "duration": 900
+  },
+  {
+    "name": "source-v5-s1112",
+    "seed": 1112,
+    "split": "train",
+    "variant": "network_only",
+    "network_case": 1,
+    "host_case": 0,
+    "authorized": 1500,
+    "work": 0,
+    "target": 2,
+    "topology": "bypass",
+    "rx": 1,
+    "duration": 900
+  },
+  {
+    "name": "source-v5-s1113",
+    "seed": 1113,
+    "split": "calibration",
+    "variant": "network_only",
+    "network_case": 0,
+    "host_case": 0,
+    "authorized": 500,
+    "work": 0,
+    "target": 2,
+    "topology": "bypass",
+    "rx": 0.9,
+    "duration": 900
+  },
+  {
+    "name": "source-v5-s1114",
+    "seed": 1114,
+    "split": "calibration",
+    "variant": "network_only",
+    "network_case": 1,
+    "host_case": 0,
+    "authorized": 1000,
+    "work": 0,
+    "target": 2,
+    "topology": "bypass",
+    "rx": 0.85,
+    "duration": 900
+  }
+]

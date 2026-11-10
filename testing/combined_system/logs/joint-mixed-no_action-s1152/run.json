@@ -1,0 +1,25 @@
+{
+  "name": "joint-mixed-no_action-s1152",
+  "seed": 1152,
+  "split": "final",
+  "variant": "no_action",
+  "case": "mixed",
+  "network_case": 2,
+  "host_case": 1,
+  "work": 250,
+  "authorized": 1000,
+  "rx": 1,
+  "target": 3,
+  "topology": "grid",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 114.88367475799896,
+  "gateway_errors": [],
+  "raw_sha256": "727e0ecae235b6c424af7dbbc8e9604272b8785a798d1da1b560afbae6457f6e",
+  "scenario_sha256": "5c5656c98d63a47271bab3afab13750503c292428ceaf94c0f21eebf35127d8d",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "unix_time": 1794331078.1305242,
+  "accepted_final_runs": 42,
+  "source_calibration_runs": 4,
+  "artifact_sha256": "917a14f56435cd8691fea32435e1d209f45edbb48428bf93773671c1979787db",
+  "validation_checks": 10470,
+  "report": "REPORT.md",
+  "scope": "live combined gateway + actual ten Z1 motes; matched adaptations, not original full-framework reproduction; no FIT",
+  "system_configuration_changed": false
+}

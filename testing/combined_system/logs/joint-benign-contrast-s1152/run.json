@@ -1,0 +1,25 @@
+{
+  "name": "joint-benign-contrast-s1152",
+  "seed": 1152,
+  "split": "final",
+  "variant": "contrast",
+  "case": "benign",
+  "network_case": 1,
+  "host_case": 0,
+  "work": 0,
+  "authorized": 1000,
+  "rx": 0.9,
+  "target": 3,
+  "topology": "grid",
+  "duration": 900,
+  "exit_code": 0,
+  "wall_seconds": 111.60442160599632,
+  "gateway_errors": [],
+  "raw_sha256": "2703c974d79babf4f27420e999d6effa6b54eacfde807b3f3f67bcd8e4a933bb",
+  "scenario_sha256": "3313ce524433a4e50ef7783991273822983a9bd1c7d9e093d1191ddb32aeff06",
+  "leaf_sha256": "006523b6a6c19b79882c986e61abdc108533666ef96a6e415359552065e8b579",
+  "source_sha256": {
+    "root": "6f34d2d5b9e8d403e5028b50f81324d8f0d52ffce5d93fd75d420607877fd150",
+    "leaf": "a8127bbbb5a2ebb837c17cee1a4c961d13b7fab4a77d9eb81d549791d26e28c4"
+  }
+}

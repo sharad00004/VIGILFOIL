@@ -1,0 +1,22 @@
+# Local environments and downloaded third-party runtimes
+/testing/venv/
+/testing/cache/
+/testing/tools/
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+# Generated native objects; retain the accepted .z1 images and map files
+**/build/**/obj/
+*.o
+# TeX intermediates
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+# Raw accepted evidence is deliberately retained, including console.log files
+!/testing/combined_system/logs/**/*.log

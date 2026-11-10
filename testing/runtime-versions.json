@@ -1,0 +1,14 @@
+{
+  "contiki_ng": {
+    "release": "release/v5.2",
+    "commit": "4ccd1a3b9e767f168d12ec3df187fe6b7dc736b5"
+  },
+  "cooja": {
+    "commit": "fabff3ee41eeeb6f3de7bd11f7c9cdf0a7d7dfc4"
+  },
+  "java": "Temurin 25.0.5+8",
+  "gradle": "9.6.1",
+  "python": "3.12.3",
+  "msp430_gcc": "9.3.1.11 (additional legacy MSP430 linker scripts supplied locally)",
+  "execution": "Linux x86_64; CPU-only host inference; Cooja Z1 instruction emulation"
+}
